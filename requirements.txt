@@ -1,0 +1,8 @@
+langgraph
+langchain-core
+langchain-community
+langchain-openai
+trustcall
+ipython
+rich
+langgraph-checkpoint-sqlite
