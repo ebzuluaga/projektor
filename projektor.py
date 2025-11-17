@@ -227,7 +227,7 @@ class UpdateMemory(TypedDict):
 	update_type: Literal['project', 'todo', 'instructions']
 
 # Initialize the model
-llm = ChatOpenAI(model="gpt-4o", temperature=0, api_key='sk-proj-t7l5INcC4eUPQaVP2ay4T3BlbkFJJA3LSfWBCZvMM2Bvz4iA')
+llm = ChatOpenAI(model="gpt-4o", temperature=0) # Reminder to self: Do not leave API keys on checked out code :P
 
 ## Create the Trustcall extractors for updating the project info and ToDo list
 info_extractor = create_extractor(
